@@ -26,6 +26,12 @@
     overflow: hidden;
 }
 
+.bg-slide .circle.large
+{
+    clip-path: circle(50% at 50% 50%);
+
+}
+
 .bg-slide .circle img {
   object-fit: cover; 
   transform: rotate(0deg) scale(2); 
