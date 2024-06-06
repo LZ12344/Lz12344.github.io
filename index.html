@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Working On It</a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="circle.html">circle</a></li>
+            <li><a href="thing.html">Thing</a></li>
+            <li><a href="stuff.html">Stuff</a></li>
+</ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountain.png" id="mountain">
+        <h2 id="text">Working</h2>
+        <h2 id="text2">working</h2>
+        <img src="rock.png" id="rock">
+    </section>
+    <div class="sec" id="sec">
+        <h2>stuff</h2>
+        <p>Not In the midst of chaos and devastation, humanity found itself thrust into a 
+            desperate struggle for survival against the relentless onslaught of the bug monsters. 
+            These vile creatures, with their insatiable hunger for destruction, swept across the galaxy like a plague,
+            leaving only death and despair in their wake.<br><br> Countless battles were fought,
+             each one more harrowing than the last. The blood-soaked fields of war bore witness
+              to the sacrifices of brave soldiers, who fought tooth and nail against the relentless horde.
+               Names like Commander Zhang, whose strategic brilliance turned the tide of battle, and Sergeant Li, 
+               whose unwavering courage inspired his comrades to stand firm in the face of overwhelming odds, became 
+               legends among their fellow fighters.<br><br> Yet, despite the heroism and sacrifice of countless individuals, some battles stood out as particularly devastating. The Battle of Nova Prime, where the bug monsters unleashed their full fury upon a densely populated planet, claimed the lives of millions in a matter of hours. The once thriving world, with its bustling cities and teeming populations, was reduced to a smoldering wasteland, its people left to pick up the shattered pieces of 
+               their shattered lives.</p>
+         </div>
+
+         <script>
+            let stars =  document.getElementById('stars');
+            let moon =  document.getElementById('moon');
+            let mountain =  document.getElementById('mountain');
+            let text =  document.getElementById('text');
+            let text2 =  document.getElementById('text2');
+            let rock =  document.getElementById('rock');
+            let header = document.querySelector('header');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                stars.style.left = value * .5 + 'px';
+                moon.style.top = value * 1 + 'px';
+                mountain.style.top = value * .5 + 'px';
+                text.style.marginRight = value * 2 + 'px';
+                text2.style.marginRight = value * 1 + 'px';
+                text.style.marginTop = value * .75 + 'px';
+                text2.style.marginTop = value * .5 + 'px';
+                header.style.top = value * .5 + 'px';
+            })
+         </script>
+</body>
+
+</html>
