@@ -13,7 +13,7 @@ body {
 header
 {
     position: absolute;
-    top: 0;
+    top: 20;
     left: 0;
     width: 100%;
     padding: 10px 100px;
@@ -27,7 +27,7 @@ header .logo
     color: rgb(255, 255, 255);
     font-weight: 700;
     text-decoration: none;
-    font-size: 5em;
+    font-size: 3.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
 
