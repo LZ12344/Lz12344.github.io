@@ -8,7 +8,6 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    overflow-y: hidden;
     background: linear-gradient(#360d79,hsl(231, 100%, 78%));
 }
 header
@@ -65,7 +64,7 @@ header ul li a.active
 header ul li a.active:hover {
     text-decoration: none;
     padding: 6px 15px;
-    background: #db79c1;
+    background: #79b6db;
     margin-top: 5px;
     border-radius: 20px;
 }
@@ -110,6 +109,23 @@ section img#moon
 section img#rock
 {
     z-index: 10;
+}
+
+section img#rightc{
+    position: none;
+    z-index: 15;
+    transform: translateX(150px);
+
+
+
+}
+section img#leftc {
+    position: none;
+    z-index: 16;
+    transform: translateX(-250px);
+
+
+
 }
 #text
 {

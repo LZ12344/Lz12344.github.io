@@ -18,10 +18,12 @@
     <section>
         <img src="stars.png" id="stars">
         <img src="moon.png" id="moon">
-        <img src="mountain.png" id="mountain">
+        <img src="leftc.png" id="leftc">
+        <img src="rightc.png" id="rightc">
         <h2 id="text">Working</h2>
         <h2 id="text2">working</h2>
         <img src="rock.png" id="rock">
+
     </section>
     <div class="sec" id="sec">
         <h2>Did you know?</h2>
@@ -41,7 +43,8 @@
          <script>
             let stars =  document.getElementById('stars');
             let moon =  document.getElementById('moon');
-            let mountain =  document.getElementById('mountain');
+            let leftc =  document.getElementById('leftc');
+            let rightc =  document.getElementById('rightc');
             let text =  document.getElementById('text');
             let text2 =  document.getElementById('text2');
             let rock =  document.getElementById('rock');
@@ -51,12 +54,14 @@
                 let value = window.scrollY;
                 stars.style.left = value * .5 + 'px';
                 moon.style.top = value * 1 + 'px';
-                mountain.style.top = value * .5 + 'px';
+                leftc.style.left = value * .5 + 'px';
+                rightc.style.left = value * -.5 + 'px';
                 text.style.marginRight = value * 2 + 'px';
                 text2.style.marginRight = value * 1 + 'px';
-                text.style.marginTop = value * .75 + 'px';
+                text.style.marginTop = value * .45 + 'px';
                 text2.style.marginTop = value * .5 + 'px';
                 header.style.top = value * .5 + 'px';
+                
             })
          </script>
 </body>
