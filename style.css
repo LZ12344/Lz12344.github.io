@@ -8,7 +8,7 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    background: linear-gradient(#360d79,hsl(231, 100%, 78%));
+    background: linear-gradient(#221047,hsl(231, 100%, 78%));
 }
 header
 {
@@ -58,7 +58,7 @@ header ul li a:hover,
 header ul li a.active
 {
     background: rgb(255, 255, 255);
-    color:#220a48
+    color:#79adb6  
 
 }
 header ul li a.active:hover {
@@ -87,7 +87,7 @@ section::before
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top,#1c0522, transparent);
+    background: linear-gradient(to top,#7992b6, transparent);
     z-index: 1000;
 }
 section img
@@ -101,11 +101,14 @@ section img
     pointer-events: none;
 
 }
+
 section img#moon
 {
     mix-blend-mode: screen ;
     overflow-y: hidden;
 }
+
+
 section img#rock
 {
     z-index: 10;
@@ -152,7 +155,7 @@ section img#leftc {
 {
     position: relative;
     padding: 100px;
-    background: #1c0522;
+    background: #7992b6;
 }
 .sec h2
 {

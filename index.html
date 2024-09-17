@@ -8,11 +8,6 @@
 <body>
     <header>
 
-        <style>
-            p {
-              background-image: url('bg.png');
-            }
-            </style>
 
         <a href="#" class="logo">Working On It</a>
         <ul>
@@ -59,7 +54,7 @@
 
             window.addEventListener('scroll', function(){
                 let value = window.scrollY;
-                stars.style.left = value * .5 + 'px';
+                stars.style.top = value * 1.5 + 'px';
                 moon.style.top = value * 1 + 'px';
                 leftc.style.left = value * .5 + 'px';
                 rightc.style.left = value * -.5 + 'px';
