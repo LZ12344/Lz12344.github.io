@@ -28,18 +28,12 @@ section::before
     z-index: 1000;
 }
 
-/*.wrapper
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute; /* Makes it float on top of other elements */
-    top: 50%; /* Center it vertically */
+    top: 30%; /* Center it vertically */
     left: 50%; /* Center it horizontally */
     transform: translate(-50%, -50%); /* Align perfectly to the center */
     z-index: 100; /* Ensure it's on top of other elements */
@@ -67,7 +61,7 @@ section::before
     list-style: none;
     padding: 0 20px;
     text-shadow: 0 0 10px #0ef;
-    animation: slide 12s steps(4) infinite, colorful 6s infinite;
+    animation: slide 12s steps(4) infinite, colorful 7s infinite;
 }
 
 @keyframes slide

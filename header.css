@@ -24,7 +24,7 @@ header .logo
     color: rgb(255, 255, 255);
     font-weight: 700;
     text-decoration: none;
-    font-size: 3.5em;
+    font-size: 3em;
     text-transform: uppercase;
     letter-spacing: 2px;
 
@@ -47,7 +47,7 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #c8eeff;
+    color: #b9b9b9;
     border-radius: 20px;
     transition: background .5s, color .5s;
 }
@@ -55,13 +55,13 @@ header ul li a:hover,
 header ul li a.active
 {
     background: rgb(255, 255, 255);
-    color:#79adb6  
+    color:#a5a5a5  
 
 }
 header ul li a.active:hover {
     text-decoration: none;
     padding: 6px 15px;
-    background: #79b6db;
+    background: #0e0e0e;
     margin-top: 5px;
     border-radius: 20px;
 }
