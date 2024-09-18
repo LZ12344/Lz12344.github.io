@@ -10,24 +10,32 @@
     <header>
 
 
-        <a href="#" class="logo">I need a new moon</a>
+        <a href="#" class="logo">Profolio?</a>
         <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="circle.html">circle</a></li>
             <li><a href="still.html">Still</a></li>
             <li><a href="stuff.html">Stuff</a></li>
-</ul>
+        </ul>
     </header>
     <section>
-        <img src="stars.png" id="stars">
-        <img src="moon.png" id="moon">
+        <div id="stars"></div>
         <img src="leftc.png" id="leftc">
         <img src="rightc.png" id="rightc">
         <h2 id="text">Working</h2>
         <h2 id="text2">working</h2>
         <img src="rock.png" id="rock">
-
     </section>
+
+    <div class="wrapper">
+        <span class="first-text">I'm a</span>
+            <ul class="sec-text">
+                <li><span>collage student</span></li>
+                <li><span>major in CS</span></li>
+                <li><span>artist</span></li>
+                <li><span>designer</span></li>
+            </ul>
+    </div>
     <div class="sec" id="sec">
         <h2>About Me(not) the bg look so bad rn</h2>
         <p> Bananas Are Berries yes im a bannana: Botanically speaking, bananas are berries, while strawberries, raspberries, and blackberries are not. This is because berries develop from a single flower with one ovary, and bananas fit this criteria.
@@ -40,12 +48,9 @@
             <br><br> ok circle is ethier ganna be about project i did or that thing whne u press the center or smth it turn into another page?? IDK
             <br><br>Stuff is probly ganna be some project I made or are working on
         </p>
-        <h2>Yes It can scroll infinity on safari and IDK why ;<</h2>
          </div>
 
          <script>
-            let stars =  document.getElementById('stars');
-            let moon =  document.getElementById('moon');
             let leftc =  document.getElementById('leftc');
             let rightc =  document.getElementById('rightc');
             let text =  document.getElementById('text');
@@ -55,8 +60,6 @@
 
             window.addEventListener('scroll', function(){
                 let value = window.scrollY;
-                stars.style.top = value * .3 + 'px';
-                moon.style.top = value * 1 + 'px';
                 leftc.style.left = value * .3 + 'px';
                 rightc.style.left = value * -.3 + 'px';
                 text.style.marginRight = value * 2 + 'px';
